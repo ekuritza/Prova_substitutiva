@@ -1,0 +1,17 @@
+<h2>Cadastrar Vaga</h2>
+
+<div id="valor">
+    <label for="txtValor">ID Usuario</label>
+    <input type="number" id="usuarioId" [(ngModel)]="usuarioId" />        
+</div>
+<div id="alt">
+    <label for="numberAlt">Altura</label>
+    <input type="number" id="numberAlt" [(ngModel)]="alt" />  
+</div>      
+<div id="cpf">
+    <label for="numberPeso">Peso</label>
+    <input type="number" id="numberPeso" [(ngModel)]="peso" />
+</div>
+<div id="botao">
+    <button id="btnCadastrar" (click)="cadastrar()">Cadastrar</button>
+</div>

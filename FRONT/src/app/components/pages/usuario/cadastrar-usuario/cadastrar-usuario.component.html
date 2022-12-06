@@ -1,0 +1,13 @@
+<h2>Cadastrar Usuario</h2>
+
+<div id="nome">
+    <label for="txtNome">Nome</label>
+    <input type="text" id="txtNome" [(ngModel)]="nome" />  
+</div>      
+<div id="cpf">
+    <label for="txtCpf">Nascimento</label>
+    <input type="text" id="txtCpf" [(ngModel)]="nascimento" />
+</div>
+<div id="botao">
+    <button id="btnCadastrar" (click)="cadastrar()">Cadastrar</button>
+</div>
